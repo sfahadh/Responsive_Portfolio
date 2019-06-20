@@ -16,7 +16,7 @@ class ShowNav extends Component {
         return (
             <div>
                 <nav className={navClass}>
-                    <img id="logo-image" alt="my new logo" src={require("../../Images/logo.png")}/>
+                    {/* <img id="logo-image" alt="my new logo" src={require("../../Images/logo.png")}/> */}
                     <ul className='nav-links'>
                         <h4><Link to="/"><FontAwesomeIcon icon={faHome}/></Link></h4>
                         <h6 id="home">Home</h6>
