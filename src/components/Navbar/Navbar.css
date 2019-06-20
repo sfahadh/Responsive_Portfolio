@@ -2,12 +2,9 @@
     height: 100%;
     width: 120px;
     position: fixed;
-    top: 0;
-    left: 0;
     background-color: black;
     overflow-x: hidden;
     z-index: 1;
-    padding-top: 15px;
     transform: translateX(-100%);
     transition: transform 0.8s ease-out;
 } 
@@ -90,22 +87,22 @@ h6 {
 
 #logo-image {
     width: 125px;
+    margin-top: 8%;
 }
 
 .nav-links { 
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-right: 10%;
     width: 100%;
-
+    position: relative;
+    right: 20px;
+    top: 10px;
 }
 
 .icon-badge {
-    border: 2px solid red;
     text-align: center;
-    width: 100% !important;
 }
 
 
