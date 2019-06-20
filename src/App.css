@@ -13,3 +13,11 @@
 .App {
   border-bottom: 10px solid rgba(0, 0, 0, 0.877);
 }
+
+@media screen and (max-width: 600px) {
+  .rest.shift-page {
+      margin-top: 70px;
+      margin-left: 0;
+      transition: 0.8s;
+  }
+}

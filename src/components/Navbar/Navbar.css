@@ -128,3 +128,140 @@ h6 {
 #logo-image {
     width: 125px;
 }
+
+@media screen and (max-width: 600px) {
+    .home-page h1 {
+        margin-top: 12%;
+        font-size: 9vw;
+    }
+    
+    .side-drawer {
+        height: 120px;
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.15);
+        overflow-x: hidden;
+        z-index: 1;
+        padding-top: 15px;
+        transform: translateX(0);
+        transition: transform 0;
+    }
+
+    .side-drawer.slide-action {
+        transform: translateX(0);
+    }
+
+    .hamburger, .x {
+        position: absolute;
+        cursor: pointer;
+        margin-left: 22px;
+        margin-top: 157px;
+    }
+    
+    .hamburger span, .x span {
+        position: relative;
+        width: 39px;
+        height: 5px;
+        background: red;
+        display: block;
+        margin: 6px;
+        transition: 0.8s;
+    }
+    
+    .hamburger {
+        transform: translateX(0);
+        transition: 0.8s;
+    }
+    
+    .x {
+        transform: translateX(110px);
+        transition: 0.8s;
+    }
+    
+    .x span:nth-child(1) {
+        transform: rotate(315deg);
+        top: 10px;
+        transition: 0.8s;
+        background: rgba(233, 38, 20, 0.897);
+    }
+    
+    .x span:nth-child(2) {
+        transform: rotate(-315deg);
+        bottom: 1px;
+        transition: 0.8s;
+        background: rgba(233, 38, 20, 0.897);
+    }
+    
+    .x span:nth-child(3) {
+        transform: scaleX(0) rotate(90deg);
+        transition: 0.8s;
+        background-color: black;
+        background: rgba(233, 38, 20, 0.897);
+    }
+    
+    .fa-home, .fa-user, .fa-eye, .fa-address-book {
+        font-size: 1.9em;
+        color: rgba(233, 38, 20, 0.897);
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .fa-home:hover, .fa-user:hover, .fa-eye:hover, .fa-address-book:hover {
+        transform: scale(1.2);
+        color: white;
+    }
+    
+    .nav-links {
+        margin-top: 12%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    .fa-user {
+        left: 5px;
+    }
+    
+    .fa-eye {
+        right: 2px;
+    }
+    
+    .fa-address-book {
+        left: 4px;
+    }
+    
+    h6 {
+        color: white;
+        text-shadow: 1px 1px rgba(209, 165, 165, 0.644);
+        position: relative;
+        margin-top: 1%;
+    }
+    
+    #home {
+        left: 5px;
+    }
+    
+    #about {
+        right: 9px;
+        top: 4px;
+    }
+    
+    #projects {
+        right: 6px;
+    }
+    
+    #contact {
+        right: 7px;
+        top: 3px;
+    }
+    
+    .fa-linkedin-in {
+        font-size: 4em;
+        color: white;
+    }
+    
+    #logo-image {
+        width: 125px;
+    }
+}
