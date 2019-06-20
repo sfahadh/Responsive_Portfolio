@@ -103,6 +103,7 @@ h6 {
 
 .icon-badge {
     text-align: center;
+    margin-top: 7%;
 }
 
 
@@ -123,11 +124,11 @@ h6 {
         transform: translateY(0);
     }
 
-    /* .hamburger, .x {
+    .hamburger, .x {
         position: absolute;
         cursor: pointer;
-        margin-left: 22px;
-        margin-top: 157px;
+        margin-left: 5px;
+        margin-top: 5px;
     }
     
     .hamburger span, .x span {
@@ -141,35 +142,14 @@ h6 {
     }
     
     .hamburger {
-        transform: translateX(0);
+        transform: translateY(0);
         transition: 0.8s;
     }
     
     .x {
-        transform: translateX(110px);
+        transform: translateY(80px);
         transition: 0.8s;
     }
-    
-    .x span:nth-child(1) {
-        transform: rotate(315deg);
-        top: 10px;
-        transition: 0.8s;
-        background: rgba(233, 38, 20, 0.897);
-    }
-    
-    .x span:nth-child(2) {
-        transform: rotate(-315deg);
-        bottom: 1px;
-        transition: 0.8s;
-        background: rgba(233, 38, 20, 0.897);
-    }
-    
-    .x span:nth-child(3) {
-        transform: scaleX(0) rotate(90deg);
-        transition: 0.8s;
-        background-color: black;
-        background: rgba(233, 38, 20, 0.897);
-    } */
     
     .fa-home, .fa-user, .fa-eye, .fa-address-book {
         font-size: 1.3em;
@@ -181,13 +161,6 @@ h6 {
     .fa-home:hover, .fa-user:hover, .fa-eye:hover, .fa-address-book:hover {
         transform: scale(1.2);
         color: white;
-    }
-    
-    .nav-links {
-        margin-top: 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
     }
     
     .fa-user {
@@ -224,12 +197,30 @@ h6 {
     }
     
     #contact {
-        right: 5px;
+        right: 1px;
         top: 0;
     }
     
     #logo-image {
-        width: 125px;
+        width: 95px;
         position: absolute;
+        top: -25px;
+    }
+
+    .nav-links { 
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    
+    .icon-badge {
+        text-align: center;
+        margin-top: 0;
+        /* border: 2px solid red; */
+        margin-right: 5%;
     }
 }

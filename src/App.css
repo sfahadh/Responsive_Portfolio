@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 600px) {
   .rest.shift-page {
-      margin-top: 70px;
+      /* margin-top: 50px; */
       margin-left: 0;
       transition: 0.8s;
   }
