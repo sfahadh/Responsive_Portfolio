@@ -1,0 +1,15 @@
+.rest {
+  text-align: center;
+  height: 99.5vh;
+  overflow-x: hidden;
+  transition: 0.8s;
+}
+
+.rest.shift-page {
+  margin-left: 120px;
+  transition: 0.8s;
+}
+
+.App {
+  border-bottom: 10px solid rgba(0, 0, 0, 0.877);
+}

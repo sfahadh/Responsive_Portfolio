@@ -1,0 +1,13 @@
+.footer {
+    height: 50px;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+}
+
+.footer h5 {
+    color: rgb(9, 207, 9);
+    position: absolute;
+    bottom: 0;
+    right: 45%;
+}

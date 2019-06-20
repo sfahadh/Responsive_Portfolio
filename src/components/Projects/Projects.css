@@ -1,0 +1,125 @@
+.projects-header {
+    width: 100vw;
+    height: 600px;
+    background-image: url('../../Images/matrix-background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects-header h1 {
+    color: red;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 800;
+    font-size: 4em;
+    text-shadow: 8px 4px black;
+    margin-right: 3%;
+}
+
+.in-between {
+    background-image: url('../../Images/moving-background.gif');
+    height: 50px;
+}
+
+.projects-card {
+    display: flex;
+    margin: 3% 2% 6% 4.5%;
+    border: 3px dashed red;
+    padding: 50px;
+}
+
+.project-background {
+    background-color: rgb(0, 0, 0);
+}
+
+.projects-card hr {
+    margin-bottom: 4%;
+}
+
+.projects-info p {
+    margin: 3% 6%;
+    font-size: 1.4vw;
+    font-family: 'Signika Negative', sans-serif;
+    color: rgba(6, 207, 6, 0.877);
+}
+
+#breaking-bricks-header {
+    font-family: 'Press Start 2P';
+    margin: 5% 3% 0 3%;
+    font-size: 2.2vw;
+    color: rgb(248, 13, 13);
+    font-weight: 600;
+}
+
+#leisurely-slackers-header {
+    font-family: 'Pacifico', cursive;
+    color: blue;
+    font-size: 2.6vw;
+    margin-top: 5%;
+}
+
+.app-link {
+    display: inline-block;
+    font-size: 1.3vw;
+    color: rgba(4, 167, 4, 0.877);
+}
+
+.projects-info a {
+    font-size: 1.2vw;
+    margin-left: 1%;
+}
+
+.app-links {
+    text-align: left;
+    margin-left: 8%;
+}
+
+#side-note {
+    font-size: 1.1vw;
+    margin-top: 4%;
+}
+
+.projects-card img {
+    width: 50vw;
+}
+
+#nutri-gainz-header {
+    font-family: Lato,'Helvetica Neue', sans-serif;
+    font-style: italic;
+    color: orange;
+    font-weight: 600;
+    font-size: 2.6vw;
+    padding-top: 10px;
+}
+
+#lifters-paradise-header {
+    font-family: 'Shojumaru', cursive;
+    color: rgba(4, 150, 235, 0.945);
+    font-size: 2.6vw;
+    padding-top: 10px;
+}
+
+#fitness-blog {
+    color: rgb(13, 224, 13);
+    font-weight: 600;
+    text-shadow: 1px 1px red;
+    font-size: 2.6vw;
+    padding-top: 10px;
+}
+
+#tic-tac-toe {
+    font-family: 'Rye', cursive;
+    color: rgb(177, 14, 226);
+    text-shadow: 1px 1px white;
+    font-weight: 600;
+    font-size: 2.6vw;
+    padding-top: 10px;
+}
+
+#high-card-wins {
+    color: white;
+    font-size: 2.6vw;
+    padding-top: 11px;
+}
+

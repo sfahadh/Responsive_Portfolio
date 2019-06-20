@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5274ddb9.chunk.css",
+    "main.js": "/static/js/main.e129ea44.chunk.js",
+    "main.js.map": "/static/js/main.e129ea44.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.400f043a.chunk.css": "/static/css/2.400f043a.chunk.css",
+    "static/js/2.3f6266f9.chunk.js": "/static/js/2.3f6266f9.chunk.js",
+    "static/js/2.3f6266f9.chunk.js.map": "/static/js/2.3f6266f9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.7abd569f65ef8293740ee7bb5cafb410.js": "/precache-manifest.7abd569f65ef8293740ee7bb5cafb410.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.400f043a.chunk.css.map": "/static/css/2.400f043a.chunk.css.map",
+    "static/css/main.5274ddb9.chunk.css.map": "/static/css/main.5274ddb9.chunk.css.map",
+    "static/media/breaking-bricks-home.png": "/static/media/breaking-bricks-home.8b7eed8b.png",
+    "static/media/Home.css": "/static/media/city-code.6dda8eec.png",
+    "static/media/fitness-blog-home.png": "/static/media/fitness-blog-home.92605828.png",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/high-card-wins.png": "/static/media/high-card-wins.816f17a1.png",
+    "static/media/leisurely-slackers.png": "/static/media/leisurely-slackers.1f855ff2.png",
+    "static/media/lifters-paradise.png": "/static/media/lifters-paradise.987c7eea.png",
+    "static/media/logo.png": "/static/media/logo.a6e32b97.png",
+    "static/media/Projects.css": "/static/media/moving-background.1602b26c.gif",
+    "static/media/AboutMe.css": "/static/media/ruby.68be7836.png",
+    "static/media/mortal-tic-tac-toe.png": "/static/media/mortal-tic-tac-toe.fdd6cf3d.png",
+    "static/media/nutri-gainz.png": "/static/media/nutri-gainz.954e66fc.png",
+    "static/media/Contact.css": "/static/media/star-wars-code.1db4f552.png"
+  }
+}

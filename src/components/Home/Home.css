@@ -1,0 +1,16 @@
+.home-page {
+    height: 93.5vh;
+    background-image: url('../../Images/city-code.png');
+    background-size: cover;
+}
+
+.home-page h1 {
+    padding-top: 3%;
+    font-family: 'Orbitron', sans-serif;
+    color: rgba(6, 207, 6, 0.877);
+    font-size: 5vw;
+}
+
+.home-page img {
+    margin-top: 10%;
+}

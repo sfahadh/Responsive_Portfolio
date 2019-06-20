@@ -1,0 +1,179 @@
+#about-image {
+    clip-path: polygon(75% 0, 100% 38%, 51% 100%, 0 40%, 25% 0);
+    width: 527px;
+    height: 70vh;
+    margin-left: 1%;
+    background-image: url("../../Images/me.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.indeed, .facebook, .instagram, .github {
+    width: 240px;
+    height: 270px;
+    clip-path: polygon(33% 31%, 69% 32%, 84% 45%, 51% 76%, 17% 44%);
+    background-image: url("../../Images/ruby.png");
+    background-size: 100% 100%;
+}
+
+.indeed {
+    transform: rotate(-80deg) translateX(354px) translateY(-172px);
+}
+
+.instagram {
+    transform: rotate(-175deg) translateX(33px) translateY(769px);
+}
+
+.facebook {
+    transform: rotate(78deg) translateX(-583px) translateY(-540px);
+}
+
+.github {
+    transform: rotate(-188deg) translateX(-420px) translateY(1016px);
+}
+
+.whole-image {
+    margin-top: 70px;
+    margin-left: 2%;
+    display: inline-block;
+    position: relative;
+}
+
+.about-me-info {
+    margin-right: 7%;
+    margin-left: 6%;
+    width: 47%;
+}
+
+.about-me-page {
+    background-color: black;
+}
+
+.indeed h1, .facebook h1 {
+    color: rgba(6, 207, 6, 0.877);
+    text-shadow: 5px 3px black !important;
+    font-weight: 800 !important;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    top: 100px;
+    font-size: 3em !important;
+    font-family: 'Kurale', serif !important;
+}
+
+.indeed h1 {
+    transform: rotate(80deg);
+}
+
+.facebook h1 {
+    transform: rotate(-80deg);
+    top: 105px;
+    left: -5px;
+}
+
+.instagram h1, .github h1 {
+    text-shadow: 5px 3px black !important;
+    font-weight: 800 !important;
+    text-align: center;
+    position: relative;
+    left: 12px;
+    top: 108px;
+    font-size: 3em !important;
+    transform: rotate(180deg);
+}
+
+.instagram h1 {
+    transform: rotate(170deg);
+}
+
+.github h1 {
+    transform: rotate(185deg);
+    left: 6px;
+}
+
+.about-me-page h1 {
+    font-size: 4vw;
+    font-weight: 500;
+    font-family: 'Audiowide', cursive;
+    text-shadow: 2px 2px rgba(243, 30, 10, 0.897);
+    margin-top: 9%;
+}
+
+.experiences h1 {
+    margin-top: 3%;
+}
+
+hr {
+    height: 4px;
+    background-color: rgb(90, 0, 0);
+    box-shadow: 3px 2px 8px 4px rgba(255, 21, 0, 0.897);
+    width: 80%;
+    margin-bottom: 35px;
+}
+
+.about-me-page p {
+    font-size: 1.5vw;
+    line-height: 1.3em;
+    font-family: 'Kurale', serif;
+    font-weight: 600;
+    color: rgba(6, 207, 6, 0.877);
+}
+
+.skills-experiences {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills {
+    margin-left: 5%;
+}
+
+.experiences li {
+    text-align: left;
+    color: rgba(6, 207, 6, 0.877);
+}
+
+.experiences {
+    margin: 0 5%;
+}
+
+.align-left-title {
+    text-align: left;
+}
+
+.image-about {
+    display: flex;
+    margin-left: 5%;
+    height: 590px;
+    justify-content: space-between;
+}
+
+.skills-education {
+    flex: 1;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.education {
+    margin: 8% 0 12% 4%;
+}
+
+#list-of-skills {
+    display: flex;
+}
+
+#skills-left, #skills-middle, #skills-right {
+    flex: 1;
+    text-align: left;
+}
+
+.education h6 {
+    text-align: left;
+    color: black;
+    font-weight: 300;
+    color: rgba(6, 207, 6, 0.877);
+}
+
+.education-type {
+    margin-bottom: 0;
+}
