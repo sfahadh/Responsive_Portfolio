@@ -34,8 +34,8 @@
         background-size: 100% 100%;
     }
 
-    /* .home-page h1 {
-        margin-top: 4%;
-        font-size: 7vw;
-    } */
+    .home-page h1 {
+        margin-top: 12%;
+        font-size: 9vw;
+    }
 }
