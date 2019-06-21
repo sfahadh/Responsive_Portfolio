@@ -4,7 +4,7 @@
 
 #about-image {
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-    width: 30vw;
+    width: 500px;
     height: 60vh;
     background-image: url("../../Images/me.png");
     background-size: cover;
@@ -33,7 +33,10 @@
 }
 
 .experiences h1 {
-    margin-top: 12%;
+    margin-top: 17%;
+}
+.skills h1 {
+    margin-top: 0;
 }
 
 hr {
