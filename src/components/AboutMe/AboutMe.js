@@ -9,10 +9,10 @@ function AboutMe() {
             <div className="image-about">
                 <div className="whole-image">
                     <div id="about-image"></div>
-                    <div className="indeed"><h1><a href="https://www.linkedin.com/in/fahad-hussain23/" target="_blank" rel="noopener noreferrer">in</a></h1></div>
-                    <div className="facebook"><h1><a href="https://www.facebook.com/fahad.hussain23" target="_blank" rel="noopener noreferrer">fb</a></h1></div>
-                    <div className="instagram"><h1><a href="https://www.instagram.com/fahad_owns_u/?hl=en" target="_blank" rel="noopener noreferrer">ig</a></h1></div>
-                    <div className="github"><h1><a href="https://github.com/sfahadh" target="_blank" rel="noopener noreferrer">gh</a></h1></div>
+                    <div className="indeed"></div>
+                    <div className="facebook"></div>
+                    <div className="instagram"></div>
+                    <div className="github"></div>
                 </div>
                 
                 <div className="about-me-info">
