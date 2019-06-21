@@ -121,8 +121,8 @@ hr {
 
 @media screen and (max-width: 1100px) {
     #about-image {
-        width: 400px;
-        height: 50vh;
+        width: 350px;
+        height: 47vh;
         margin-bottom: 0;
     }
 
@@ -131,11 +131,11 @@ hr {
     }
 
     .experiences h1 {
-        margin-top: -11%;
+        margin-top: -5%;
     }
     
     .skills h1 {
-        margin-top: -36%;
+        margin-top: -29%;
     }
 
     .education h6 {
@@ -204,3 +204,9 @@ hr {
         font-size: 1.3vw;
     }
 }
+
+@media screen and (max-width: 700px) {
+    .about-me-page {
+        background-color: white;
+    }
+}   
