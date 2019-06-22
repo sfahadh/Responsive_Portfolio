@@ -48,6 +48,7 @@ function Summary() {
                         <h6>Certified Strength & Conditioning Specialist</h6>
                     </div>
                 </div>
+                
                 <div className="about-me-info experiences">
                     <h1>Experiences</h1>
                     <hr/>

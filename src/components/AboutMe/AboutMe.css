@@ -240,7 +240,26 @@ hr {
     }
 
     .about-me-info {
+        margin: auto;
+    }
+
+    .skills-experiences {
+        /* margin-top: 60%; */
         display: block;
     }
 
+    .skills-education {
+        margin: auto;
+        margin-top: 105%;
+    }
+
+    /* .about-me-page h1 {
+        font-size: 4vw;
+        font-weight: 500;
+        font-family: 'Audiowide', cursive;
+        color: white;
+        text-shadow: 2px 2px rgba(243, 30, 10, 0.897);
+        margin-top: 9%;
+    } */
+    
 }   
