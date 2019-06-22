@@ -1,5 +1,6 @@
 .about-me-page {
     background-color: black;
+    border: 1px solid black;
 }
 
 #about-image {
@@ -244,13 +245,20 @@ hr {
     }
 
     .skills-experiences {
-        /* margin-top: 60%; */
         display: block;
     }
 
     .skills-education {
         margin: auto;
         margin-top: 105%;
+    }
+
+    .education {
+        margin-top: -10%;
+    }
+
+    .experiences {
+        margin-top: 35%;
     }
 
     /* .about-me-page h1 {
