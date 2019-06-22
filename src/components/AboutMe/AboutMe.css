@@ -56,7 +56,6 @@ hr {
 
 .about-me-page p {
     font-size: 1.5vw;
-    line-height: 1.3em;
     font-family: 'Kurale', serif;
     font-weight: 600;
     line-height: 1.6em;
@@ -221,7 +220,7 @@ hr {
     .image-about {
         display: block;
         margin-left: 5%;
-        height: 590px;
+        height: 50%;
         justify-content: space-between;
         margin: auto;
     }
@@ -236,38 +235,48 @@ hr {
 
     #about-image {
         width: 70vw;
-        height: 45vh;
-        margin: auto;
-    }
-
-    .about-me-info {
+        height: 390px;
         margin: auto;
     }
 
     .skills-experiences {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid red;
+        margin-top: 20%;
     }
 
     .skills-education {
         margin: auto;
-        margin-top: 105%;
+        margin-top: 23%;
     }
 
     .education {
-        margin-top: -10%;
+        margin-top: 100px;
     }
 
     .experiences {
         margin-top: 35%;
     }
 
-    /* .about-me-page h1 {
-        font-size: 4vw;
-        font-weight: 500;
-        font-family: 'Audiowide', cursive;
-        color: white;
-        text-shadow: 2px 2px rgba(243, 30, 10, 0.897);
-        margin-top: 9%;
-    } */
-    
+    .about-me-page h1 {
+        font-size: 9vw;
+    }
+
+    hr {
+        height: 4px;
+        width: 47vw;
+        margin: auto;
+    }
+
+    .about-me-info p {
+        font-size: 2.9vw;
+        line-height: 1.3em;
+        margin-top: 5%;
+    }  
+
+    .about-me-info {
+        width: 77vw;
+        margin: auto;
+    }  
 }   
