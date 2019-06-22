@@ -14,8 +14,13 @@
 .whole-image {
     margin-top: 7%;
     margin-left: 2%;
-    display: inline-block;
-    position: relative;
+}
+
+.image-about {
+    display: flex;
+    margin-left: 5%;
+    height: 590px;
+    justify-content: space-between;
 }
 
 .about-me-info {
@@ -78,13 +83,6 @@ hr {
 
 .align-left-title {
     text-align: left;
-}
-
-.image-about {
-    display: flex;
-    margin-left: 5%;
-    height: 590px;
-    justify-content: space-between;
 }
 
 .skills-education {
@@ -204,62 +202,41 @@ hr {
     }
 }
 
-@media screen and (max-width: 650px) {
-    .about-me-page {
-        background-color: white;
-    }
-
-    /* #about-image {
-        width: 460px;
-        height: 55vh;
-        position: relative;
-        margin-left: 12%;
-        margin-top: 3%;
-    }
-
-    .whole-image {
-        border: 2px solid red;
-        width: 100vw;
-    }
-
-    .image-about {
-        display: block;
-    }
-
-    .about-me-page h1 {
-        font-size: 4vw;
-        margin-top: 15%;
-    }
-
-    .about-me-info p {
-        font-size: 1.6vw;
-    }
-
+@media screen and (max-width: 700px) {
     .experiences h1 {
-        margin-top: -32%;
+        margin-top: -60%;
     }
     
     .skills h1 {
-        margin-top: -64%;
+        margin-top: -90%;
     }
 
-    .education h6 {
-        font-size: 1.3vw;
+    .about-me-info {
+        margin-top: 4%;
+    }
+}  
+
+@media screen and (max-width: 550px) {
+    .image-about {
+        display: block;
+        margin-left: 5%;
+        height: 590px;
+        justify-content: space-between;
+        margin: auto;
     }
 
-    #list-of-skills p {
-        font-size: 1.7vw;
+    .whole-image {
+        position: relative;
+        left: 0;
+        margin: 0;
+        padding-top: 10%;
+        width: 100vw;
     }
 
-    .align-left-title {
-        font-size: 1.8vw !important;
+    #about-image {
+        width: 70vw;
+        height: 45vh;
+        margin: auto;
     }
 
-    .experiences ul li {
-        font-size: 1.3vw;
-    }
-
-    .education h6 {
-        font-size: 1.3vw;
-    } */
 }   

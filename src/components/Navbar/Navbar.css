@@ -18,6 +18,7 @@
     cursor: pointer;
     margin-left: 22px;
     margin-top: 7px;
+    z-index: 3;
 }
 
 .hamburger span, .x span {
