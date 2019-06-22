@@ -9,10 +9,6 @@ function AboutMe() {
             <div className="image-about">
                 <div className="whole-image">
                     <div id="about-image"></div>
-                    {/* <div className="indeed"></div>
-                    <div className="facebook"></div>
-                    <div className="instagram"></div>
-                    <div className="github"></div> */}
                 </div>
                 
                 <div className="about-me-info">
