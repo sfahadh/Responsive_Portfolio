@@ -117,7 +117,15 @@ h6 {
         z-index: 1;
         transform: translateY(-100%);
         transition: transform 0.8s ease-out;
+        /* display: flex; */
     } 
+    
+    #logo-image {
+        position: absolute;
+        width: 95px;
+        height: 59px;
+        margin-top: 1%;
+    }
     
     .side-drawer.slide-action {
         transform: translateY(-67%);
@@ -188,12 +196,6 @@ h6 {
     #contact {
         right: 1px;
         top: 0;
-    }
-    
-    #logo-image {
-        width: 95px;
-        position: absolute;
-        top: -22px;
     }
 
     .nav-links { 
