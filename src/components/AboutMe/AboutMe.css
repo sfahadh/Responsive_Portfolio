@@ -239,4 +239,8 @@ hr {
         margin: auto;
     }
 
+    .about-me-info {
+        display: block;
+    }
+
 }   

@@ -28,3 +28,11 @@
       transition: 0.8s;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .rest.shift-page {
+      margin-top: 40px;
+      margin-left: 0;
+      transition: 0.8s;
+  }
+}

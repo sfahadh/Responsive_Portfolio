@@ -170,3 +170,41 @@ h6 {
         margin-right: 5%;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .side-drawer {
+        height: 60px;
+        width: 100vw;
+        transform: translateY(-100%);
+        transition: transform 0.8s ease-out;
+    } 
+    
+    #logo-image {
+        position: absolute;
+        width: 75px;
+        height: 49px;
+        margin-top: 1%;
+    }
+    
+    .fa-home, .fa-user, .fa-eye, .fa-address-book {
+        font-size: 1em;
+        margin-top: 6px;
+    }
+
+    .nav-links { 
+        flex-direction: row;
+        justify-content: flex-end;
+        right: 0;
+        top: 4px;
+    }
+    
+    .icon-badge {
+        text-align: center;
+        margin-top: 0;
+        margin-right: 3%;
+    }
+
+    h6 {
+        font-size: 0.6em;
+    }
+}
