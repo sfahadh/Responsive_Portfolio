@@ -216,7 +216,7 @@ hr {
     }
 }  
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 625px) {
     .image-about {
         display: block;
         margin-left: 5%;
@@ -261,6 +261,7 @@ hr {
     }
 
     .education {
+        width: 75vw;
         margin-top: -40px;
     }
 
@@ -304,4 +305,11 @@ hr {
         width: 77vw;
         margin: auto;
     }  
-}   
+}  
+
+@media screen and (max-width: 430px) {
+    #about-image {
+        width: 250px;
+        height: 32vh;
+    }
+}
