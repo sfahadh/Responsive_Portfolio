@@ -261,7 +261,19 @@ hr {
     }
 
     .education {
-        /* margin-top: 100px; */
+        margin-top: -37px;
+    }
+
+    .align-left-title {
+        font-size: 3.8vw !important;
+    }
+
+    .top-education {
+        margin-top: 5%;
+    }
+
+    .education h6 {
+        font-size: 2.8vw;
     }
 
     .experiences {

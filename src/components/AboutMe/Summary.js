@@ -35,7 +35,7 @@ function Summary() {
                     <div className="education">
                         <h1>Education</h1>
                         <hr/>
-                        <p className="align-left-title education-type">Per Scholas/General Assembly</p>
+                        <p className="align-left-title education-type top-education">Per Scholas/General Assembly</p>
                         <h6>Certification of Completion, Software Engineering Immersive</h6>
                         <br/>
                         
