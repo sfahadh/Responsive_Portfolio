@@ -261,7 +261,7 @@ hr {
     }
 
     .education {
-        margin-top: -37px;
+        margin-top: -40px;
     }
 
     .align-left-title {
@@ -277,7 +277,11 @@ hr {
     }
 
     .experiences {
-        margin-top: 50% !important;
+        margin-top: 43% !important;
+    }
+
+    .experiences ul li {
+        font-size: 2.8vw;
     }
 
     .about-me-page h1 {
