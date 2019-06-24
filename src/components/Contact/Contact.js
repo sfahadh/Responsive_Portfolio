@@ -8,7 +8,7 @@ function Contact() {
             <h2>If you have any questions or concerns or feedbacks or just some random comment you want to express, feel free to reach me out directly. I'm more than glad to answer any type of questions </h2>
             <a href="mailTo:sfahadh14@gmail.com">
                 <button>
-                    Talk to me
+                    Message Me
                 </button>
             </a>
             <ul>
