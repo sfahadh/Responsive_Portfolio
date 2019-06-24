@@ -3,11 +3,12 @@
     background-color: black;
     position: relative;
     bottom: 0;
+    border: 2px solid black;
 }
 
 .footer h5 {
+    font-size: 4vw;
+    text-align: center;
     color: rgb(9, 207, 9);
-    position: absolute;
-    bottom: 0;
-    right: 45%;
+    margin-top: 10px;
 }
