@@ -138,29 +138,29 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 550px) {
     .contact-page h1 {
-        font-size: 12vw;
-        margin-top: 10%;
+        font-size: 14vw;
+        margin-top: 13%;
     }
     
     .contact-page h2 {
-        width: 65vw;
+        width: 75vw;
         margin: 40px auto;
-        font-size: 3.3vw;
+        font-size: 3.9vw;
         padding: 20px;
     }
     
     .contact-page button {
-        width: 290px;
-        height: 67px;
-        font-size: 1.6em;
+        width: 270px;
+        height: 63px;
+        font-size: 1.5em;
     }
 
     .contact-page ul {
         margin: 40px auto;
-        font-size: 2.3vw;
-        width: 68vw;
+        font-size: 3.1vw;
+        width: 84vw;
     }
     
     .contact-page span {
@@ -168,6 +168,47 @@
     }
     
     .contact-page ul a {
-        font-size: 2.4vw;
+        font-size: 2.8vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-page h1 {
+        font-size: 15vw;
+        margin-top: 20%;
+    }
+    
+    .contact-page h2 {
+        width: 84vw;
+        margin: 40px auto;
+        font-size: 4.8vw;
+        padding: 10px;
+    }
+    
+    .contact-page button {
+        width: 250px;
+        height: 60px;
+        font-size: 1.3em;
+    }
+
+    .contact-page ul {
+        margin: 40px auto;
+        font-size: 2.8vw;
+        width: 30vw;
+    }
+    
+    .contact-page span {
+        margin: 15px;
+    }
+
+    .contact-page li {
+        display: block;
+        text-align: left;
+        padding: 5px;
+
+    }
+    
+    .contact-page ul a {
+        font-size: 3.4vw;
     }
 }
