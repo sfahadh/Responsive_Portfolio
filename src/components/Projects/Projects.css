@@ -151,4 +151,48 @@
     }
 }
 
+@media screen and (max-width: 500px) {
+    .projects-header h1 {
+        margin-top: 9%;
+        font-size: 7vw;
+    }
+
+    .projects-card img {
+        width: 85%;
+    }
+
+    .in-between {
+        height: 30px;
+    }
+
+    .projects-card hr {
+        box-shadow: 1px 1px 3px 2px rgba(255, 21, 0, 0.897);
+        margin-top: 10px;
+    }
+
+    .projects-info p {
+        font-size: 2.4vw;
+    }
+    
+    .app-link {
+        font-size: 2.3vw;
+    }
+    
+    .projects-info a {
+        font-size: 2.2vw;
+    }
+    
+    #side-note {
+        font-size: 2.1vw;
+    }
+
+    #breaking-bricks-header {
+        font-size: 5vw;
+    }
+    
+    #leisurely-slackers-header, #nutri-gainz-header,  #lifters-paradise-header, #fitness-blog, #tic-tac-toe,#high-card-wins {
+        font-size: 5.4vw;
+    }
+}
+
 
