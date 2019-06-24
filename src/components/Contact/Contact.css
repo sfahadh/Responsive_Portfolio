@@ -16,11 +16,11 @@
 
 .contact-page h2 {
     width: 45vw;
-    margin: 2% auto;
+    margin: 60px auto;
     font-family: 'Kurale', serif;
     color: red;
     font-weight: 700;
-    font-size: 2.1em;
+    font-size: 2.2vw;
     text-shadow: 1px 2px rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.794);
     padding: 20px;
@@ -46,9 +46,9 @@
 
 .contact-page ul {
     list-style-type: none;
-    margin: 2% auto;
+    margin: 40px auto;
     font-size: 1.1em;
-    width: 39vw;
+    width: 620px;
     padding-left: 0;
     border: 1px solid red;
     background-color: black;
@@ -59,7 +59,7 @@
 }
 
 .contact-page span {
-    margin: 0 15px;
+    margin: 20px;
     color: rgba(6, 207, 6, 0.877);
 }
 
@@ -71,7 +71,37 @@
 
 
 @media screen and (max-width: 1000px) {
+    .contact-page h1 {
+        font-size: 8vw;
+        margin-top: 3%;
+    }
+    
+    .contact-page h2 {
+        width: 45vw;
+        margin: 60px auto;
+        font-size: 2.2vw;
+        padding: 20px;
+    }
+    
+    .contact-page button {
+        width: 340px;
+        height: 70px;
+        font-size: 2vw;
+    }
 
+    .contact-page ul {
+        margin: 40px auto;
+        font-size: 1.1em;
+        width: 620px;
+    }
+    
+    .contact-page span {
+        margin: 20px;
+    }
+    
+    .contact-page ul a {
+        font-size: 1.3em;
+    }
 }
 
 @media screen and (max-width: 700px) {
